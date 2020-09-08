@@ -1,0 +1,55 @@
+body{
+    font-family:  Roboto, sans-serif;
+}
+
+nav {
+    background-color: darksalmon;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+}
+ul {
+    text-align: right;
+    margin-right: 20px;
+}
+li {
+    display: inline;
+    margin-right: 5px;
+  
+}
+img {
+float: left;
+}
+.up {
+    text-align: center;
+    text-decoration:none ;
+
+}
+section {
+text-align: center;
+background-color: thistle;
+margin:10px 0px ;
+padding:20px 0px;
+}
+
+table {
+    display: inline;
+    text-align: center;
+  
+}
+footer {
+    margin: 10px 10px ;
+    font-size: 12px;
+    background-color: darksalmon;
+    margin:20px 0px ;
+    padding: 20px 0px;
+}
+
+.foot {
+    margin:0 ;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}
