@@ -11,12 +11,21 @@ nav {
 ul {
     text-align: right;
     margin-right: 20px;
+  
 }
 li {
     display: inline;
     margin-right: 5px;
-  
 }
+
+a {
+    text-decoration:none ;
+    color: darkslateblue ;
+}
+a:hover {
+    color: black;
+}
+
 img {
 float: left;
 }
@@ -53,3 +62,50 @@ footer {
 h1 {
     text-transform: uppercase;
 }
+
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=email], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
